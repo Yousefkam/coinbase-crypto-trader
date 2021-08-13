@@ -23,7 +23,7 @@ sell_threshold = float(input("Enter sell threshold (USD): "))
 buy_threshold = float(input("Enter buy threshold (USD): "))
 crypto = str(input('Enter desired crypto (ETH/BTC): '))
 currency_code = 'USD'
-amount = float(input('How much do you want to sell/buy from the listed crypto? ex: .23333 bitcoin: '))
+amount = float(input('How much do you want to sell/buy from the listed crypto? ex: 0.23333: '))
 
 buy_price  = client.get_buy_price(currency='USD')
 sell_price = client.get_sell_price(currency='USD')
